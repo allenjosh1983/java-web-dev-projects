@@ -10,4 +10,15 @@ class BalancedBracketsTest {
     public void emptyTest() {
         assertEquals(true, true);
     }
+
+    @Test
+    public void onlyBracketsReturnsTrue() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[]"));
+    }
+    @Test
+    public void balancedBracketsReturnsFalse() {
+        assertFalse(BalancedBrackets.hasBalancedBrackets("]"));
+
+    }
 }
+

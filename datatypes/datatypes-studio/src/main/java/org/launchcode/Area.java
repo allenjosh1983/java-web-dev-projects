@@ -1,2 +1,4 @@
-package org.launchcode;public class Area {
+package org.launchcode;
+
+public class Area {
 }
